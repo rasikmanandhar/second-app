@@ -1,1 +1,3 @@
-<p>This is Server</p>
+<h1>{{serverName}}</h1>
+<input type="text" class="form-control" (input)="onUpdateServerName($event)">
+<p>Server with ID {{serverId}} is {{getServerStatus()}}</p>
